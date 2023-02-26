@@ -1,0 +1,1 @@
+import{_ as t,W as a,X as r,Y as e,Z as o}from"./framework-b0706d19.js";const c={},n=e("h1",{id:"介绍页",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#介绍页","aria-hidden":"true"},"#"),o(" 介绍页")],-1),s=[n];function _(d,i){return a(),r("div",null,s)}const l=t(c,[["render",_],["__file","intro.html.vue"]]);export{l as default};

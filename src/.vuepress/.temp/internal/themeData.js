@@ -1,0 +1,14 @@
+export const themeData = JSON.parse("{\"encrypt\":{\"config\":{\"/demo/encrypt.html\":[\"$2a$10$pz9n7GtHMHWZM2Qt88LHz.v68.gaPQWVLRJoP8E0c8qlN.QN3sQZC\"],\"/zh/demo/encrypt.html\":[\"$2a$10$His2MMPdyecoFRpVPiUp6eMMqFNlnlEPYJ/Eg79RQPkftXfmWzQUy\"]}},\"fullscreen\":true,\"blog\":{\"medias\":{\"BiliBili\":\"https://space.bilibili.com/472499034?spm_id_from=333.1007.0.0\",\"Discord\":\"https://example.com\",\"Email\":\"https://account.microsoft.com/profile?refd=account.microsoft.com\",\"Gitee\":\"https://gitee.com/xunya/dashboard/projects\",\"GitHub\":\"https://github.com/StudioFn\",\"QQ\":\"http://wpa.qq.com/msgrd?v=3&uin=2308762185&site=qq&menu=yes\",\"Zhihu\":\"https://www.zhihu.com/people/22-33-60-82\"}},\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"navbarLocales\":{\"langName\":\"简体中文\",\"selectLangAriaLabel\":\"选择语言\"},\"metaLocales\":{\"author\":\"作者\",\"date\":\"写作日期\",\"origin\":\"原创\",\"views\":\"访问量\",\"category\":\"分类\",\"tag\":\"标签\",\"readingTime\":\"阅读时间\",\"words\":\"字数\",\"toc\":\"此页内容\",\"prev\":\"上一页\",\"next\":\"下一页\",\"lastUpdated\":\"上次编辑于\",\"contributors\":\"贡献者\",\"editLink\":\"Edit this page on GitHub\"},\"blogLocales\":{\"article\":\"文章\",\"articleList\":\"文章列表\",\"category\":\"分类\",\"tag\":\"标签\",\"timeline\":\"时间轴\",\"timelineTitle\":\"昨日不在\",\"all\":\"全部\",\"intro\":\"个人介绍\",\"star\":\"收藏\"},\"paginationLocales\":{\"prev\":\"上一页\",\"next\":\"下一页\",\"navigate\":\"跳转到\",\"action\":\"前往\",\"errorText\":\"请输入 1 到 $page 之前的页码！\"},\"outlookLocales\":{\"themeColor\":\"主题色\",\"darkmode\":\"外观\",\"fullscreen\":\"全屏\"},\"encryptLocales\":{\"iconLabel\":\"文章已加密\",\"placeholder\":\"输入密码\",\"remember\":\"记住密码\",\"errorHint\":\"请输入正确的密码\"},\"routeLocales\":{\"skipToContent\":\"跳至主要內容\",\"notFoundTitle\":\"页面不存在\",\"notFoundMsg\":[\"这里什么也没有\",\"我们是怎么来到这儿的？\",\"这 是 四 零 四 !\",\"看起来你访问了一个失效的链接\"],\"back\":\"返回上一页\",\"home\":\"带我回家\",\"openInNewWindow\":\"Open in new window\"},\"author\":{\"name\":\"远赤\",\"url\":\"https://mrhope.site\"},\"logo\":\"/icon_hamonious_one.png\",\"repo\":\"vuepress-theme-hope/vuepress-theme-hope\",\"docsDir\":\"docs\",\"repoDisplay\":false,\"navbar\":[{\"text\":\"More\",\"icon\":\"edit\",\"prefix\":\"/posts/\",\"children\":[]}],\"sidebar\":{\"/zh/\":[\"\",{\"text\":\"如何使用\",\"icon\":\"creative\",\"prefix\":\"demo/\",\"link\":\"demo/\",\"children\":\"structure\"},{\"text\":\"文章\",\"icon\":\"note\",\"prefix\":\"posts/\",\"children\":\"structure\"},\"intro\",\"slides\"]},\"footer\":\"和圈APP\",\"displayFooter\":true,\"blog\":{\"description\":\"自律，说起来简单，落下去复杂，听起来像感觉，做起来是原则\",\"intro\":\"/intro.html\"}}}}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
+}
